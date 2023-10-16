@@ -1,0 +1,51 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Components</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                stroke : 'rgba(29, 155, 240, 0.24)' ,
+                twtrblue: '#1D9BF0',
+                neutral500 : '#737373',
+                neutral50 : '#f9f9f9',
+                neutral200 : '#e4e4e4',
+                twtrbluedis: '#1E5D87',
+                twtrbluehover: '#1871CA',  
+                neutral400: '#a2a2a2',
+                neutral1000: '#000',
+                neutral600: '#525252',
+                backgroundCol: '#40596A'
+              }
+            }
+          }
+        }
+      </script>
+</head>
+
+<body class=" bg-backgroundCol px-10 pt-24 pb-10 flex flex-wrap gap-24">
+    <header id="navbar" class="bg-twtrblue absolute top-0 left-0 right-0 py-5 px-4">
+        <nav class="flex items-center justify-center gap-10 text-xl font-bold text-neutral50">
+            <a href="./index.html" class="hover:opacity-90">Other components</a>
+            <a href="./cards.html" class="hover:opacity-90">Cards</a>
+        </nav>
+    </header>
+    <div class="inline-flex w-[512px] h-[355px] py-2.5 px-[15px] flex-col justify-between items-center flex-shrink-0 bg-neutral1000 rounded-2xl"></div>
+<div class="inline-flex py-2.5 px-[15px] flex-col items-start gap-3 rounded-2xl bg-neutral1000 w-[512px] h-[223px]">
+<div class="flex w-[482px] h-[48px] py-3 px-4 items-center gap-5 text-neutral50">
+    <img src="../public/images/signup-x.svg" class="flex-shrink-0">
+<p class="text-neutral50 font-inter text-base font-bold">Header</p>
+</div>
+
+</div>
+
+<div class="inline-flex w-[512px] h-[223px] flex-col py-2.5 px-[15px] gap-3 items-start bg-neutral1000 rounded-2xl">
+<div class="flex w-[482px] py-3 px-4 items-center gap-5 h-[48px] text-neutral50">
+<img src="../public/images/signup-x.svg"  class="flex-shrink-0">
+</div>
+</div>
+
+</body></html> 
